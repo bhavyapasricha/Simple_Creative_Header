@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Day 75</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" overflow="hidden">
+  <defs>
+    <clipPath id="svg-clip">
+      <rect x="0" y="0" width="300" height="300" />
+    </clipPath>
+    
+    <radialGradient id="rad-grad">
+      <stop offset="0%" stop-color="hsl(220, 70%, 90%)" stop-opacity="1" />
+      <stop offset="20%" stop-color="hsl(220, 70%, 90%)" stop-opacity="0.35" />
+      <stop offset="30%" stop-color="hsl(220, 70%, 90%)" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="hsl(220, 70%, 90%)" stop-opacity="0" />
+    </radialGradient>
+    
+    <linearGradient id="lin-grad" x1="0" x2="0" y1="0" y2="1">
+      <stop id="stop-1" offset="0%" stop-color="hsl(250, 18%, 10%)"/>
+      <stop id="stop-2" offset="100%" stop-color="hsl(250, 18%, 1%)"/>
+    </linearGradient>
+  </defs>
+  
+  <g id="container" class="hitarea" clip-path="url(#svg-clip)">
+    <rect x="0" y="0" width="300" height="300" fill="url(#lin-grad)" />
+  </g>
+</svg>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/SplitText.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
